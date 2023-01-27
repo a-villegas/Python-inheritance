@@ -7,7 +7,7 @@ class Restaurant():
         
     def describe_restaurant(self):
         """Restaurant description""" 
-        print(self.name.title() + self.cuisine.title())
+        print(self.name.title() + " is a " + self.cuisine.title() + " cuisine.")
         
         
     def open_restaurant(self):
@@ -15,7 +15,3 @@ class Restaurant():
         print(self.name.title() + "  is Open for business!")
         
         
-
-ans=Restaurant('Benihanas', 'Japanese')
-ans.describe_restaurant()
-ans.open_restaurant()
